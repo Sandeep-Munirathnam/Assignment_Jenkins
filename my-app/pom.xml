@@ -13,4 +13,22 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+
+    <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>webappreleases</id>
+      <name>webappreleases</name>
+      <url>http://3.86.232.11:8081/nexus/content/repositories/webappreleases/</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <uniqueVersion>true</uniqueVersion>
+      <id>webapp_snapshots</id>
+      <name>webapp_snapshots</name>
+      <url>http://3.86.232.11:8081/nexus/content/repositories/webapp_snapshots/</url>
+      <layout>legacy</layout>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
