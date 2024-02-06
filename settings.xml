@@ -7,7 +7,7 @@
       <password>webapp_user</password>
     </server>
     <server>
-    <id>webapp_releases</id>
+    <id>webappreleases</id>
       <username>webapp_user</username>
       <password>webapp_user</password>
     </server>
