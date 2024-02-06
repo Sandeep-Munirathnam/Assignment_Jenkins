@@ -3,13 +3,13 @@
   <servers>
     <server>
       <id>webapp_snapshots</id>
-      <username>webapp_user</username>
-      <password>webapp_user</password>
+      <username>webappuser</username>
+      <password>webappuser</password>
     </server>
     <server>
     <id>webappreleases</id>
-      <username>webapp_user</username>
-      <password>webapp_user</password>
+      <username>webappuser</username>
+      <password>webappuser</password>
     </server>
   </servers>
 </settings>
